@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/nomeDoSeuBanco
+    username: dbuser
+    password: dbpass
+    driver-class-name: com.mysql.jdbc.Driver
+
+dbc:
+  h2:
+    mem: speciality_database
+    username: speciality-app
+    password: speciality-app!
