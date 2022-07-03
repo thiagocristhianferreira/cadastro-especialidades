@@ -1,5 +1,7 @@
 package app.trybe.specialityapp.model;
 
+import org.springframework.context.annotation.Configuration;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,7 +13,7 @@ import javax.persistence.Table;
  * Classe Professional.
  */
 @Entity
-@Table(name = "tbl_professional", schema = "public")
+@Configuration
 public class Professional {
 
   @Id
