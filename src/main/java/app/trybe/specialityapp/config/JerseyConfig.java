@@ -24,10 +24,7 @@ public class JerseyConfig extends ResourceConfig {
     register(new AbstractBinder() {
       @Override
       protected void configure() {
-        logger.info("logging:");
-        logger.warn("logging:");
-        logger.trace("logging:");
-        logger.debug("logging:");
+        logger.info("Configurando binder");
       }}
     );
   }
