@@ -13,3 +13,5 @@ dbc:
     mem: speciality_database
     username: speciality-app
     password: speciality-app!
+
+logging:

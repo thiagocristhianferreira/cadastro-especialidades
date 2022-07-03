@@ -1,6 +1,11 @@
 package app.trybe.specialityapp.model;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * Classe Professional.
@@ -20,7 +25,7 @@ public class Professional {
   @Column(name = "especialidade")
   private String speciality;
 
-  Professional (Integer id, String nome, String speciality) {
+  Professional(Integer id, String nome, String speciality) {
     this.id = id;
     this.nome = nome;
     this.speciality = speciality;
