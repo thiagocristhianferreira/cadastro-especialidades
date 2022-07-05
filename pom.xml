@@ -112,6 +112,8 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>install</defaultGoal>
+		<finalName>speciality-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
