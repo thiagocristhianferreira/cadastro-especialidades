@@ -7,7 +7,13 @@ spring:
     username: dbuser
     password: dbpass
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5Dialect
 dbc:
   h2:
     mem: speciality_database

@@ -28,4 +28,5 @@ public class JerseyConfig extends ResourceConfig {
       }}
     );
   }
+
 }

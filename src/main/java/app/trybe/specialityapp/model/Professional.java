@@ -13,7 +13,6 @@ import javax.persistence.Table;
  * Classe Professional.
  */
 @Entity
-@Configuration
 public class Professional {
 
   @Id
@@ -31,6 +30,9 @@ public class Professional {
     this.id = id;
     this.nome = nome;
     this.speciality = speciality;
+  }
+
+  Professional() {
   }
 
   public Integer getId() {
