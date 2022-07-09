@@ -26,7 +26,6 @@ public class Professional {
   private String speciality;
 
   Professional(Integer id, String nome, String speciality) {
-    this.id = id;
     this.nome = nome;
     this.speciality = speciality;
   }
