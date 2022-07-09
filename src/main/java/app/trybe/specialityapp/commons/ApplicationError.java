@@ -1,8 +1,16 @@
 package app.trybe.specialityapp.commons;
 
-public class ApplicationError {
+public class ApplicationError extends Throwable {
   private Integer status;
   private String message;
+
+  public ApplicationError(Integer status, String message) {
+    this.status = status;
+    this.message = message;
+  }
+
+  public ApplicationError() {
+  }
 
   public Integer getStatus() {
     return status;
