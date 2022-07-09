@@ -1,7 +1,5 @@
 package app.trybe.specialityapp.model;
 
-import org.springframework.context.annotation.Configuration;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -28,7 +26,7 @@ public class Professional {
   private String speciality;
 
   Professional(Integer id, String nome, String speciality) {
-//    this.id = id;
+    this.id = id;
     this.nome = nome;
     this.speciality = speciality;
   }

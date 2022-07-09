@@ -4,12 +4,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * SpecialityAppApplication.
+ */
 @SpringBootApplication
 @SpringBootConfiguration
 public class SpecialityAppApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(SpecialityAppApplication.class, args);
-		System.out.println("starting aplication");
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(SpecialityAppApplication.class, args);
+    System.out.println("starting aplication");
+  }
 
 }

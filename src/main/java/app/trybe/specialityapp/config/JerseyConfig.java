@@ -1,13 +1,12 @@
 package app.trybe.specialityapp.config;
 
 import app.trybe.specialityapp.SpecialityAppApplication;
+import javax.ws.rs.ApplicationPath;
 import org.glassfish.jersey.internal.inject.AbstractBinder;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
-
-import javax.ws.rs.ApplicationPath;
 
 /**
  * Configuração.
@@ -19,14 +18,15 @@ public class JerseyConfig extends ResourceConfig {
   /**
    * Construtor para o JerseyConfig.
    */
+
   public JerseyConfig() {
     packages(SpecialityAppApplication.class.getPackageName());
     register(new AbstractBinder() {
       @Override
       protected void configure() {
         logger.info("Configurando binder");
-      }}
-    );
+      }
+    });
   }
 
 }
