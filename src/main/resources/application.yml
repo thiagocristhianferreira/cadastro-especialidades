@@ -3,23 +3,17 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/speciality_database
-    username: dbuser
-    password: dbpass
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:h2:mem:speciality_database
+    password: speciality-app!
+    username: speciality-app
+
     jpa:
       show-sql: true
-      hibernate:
-        ddl-auto: update
-      properties:
-        hibernate:
-          dialect: org.hibernate.dialect.MySQL5Dialect
+
   profiles:
     active: dev
-dbc:
-  h2:
-    mem: speciality_database
-    username: speciality-app
-    password: speciality-app!
 
 logging:
+  file:
+    name: speciality-app.log
+    path: .logs/speciality-app.log

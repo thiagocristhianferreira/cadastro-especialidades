@@ -1,2 +1,19 @@
 server:
-  port: 8089
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:speciality_database
+    password: speciality-app!
+    username: speciality-app
+
+    jpa:
+      show-sql: true
+
+  profiles:
+    active: dev
+
+logging:
+  file:
+    name: speciality-app.log
+    path: .logs/speciality-app.log
