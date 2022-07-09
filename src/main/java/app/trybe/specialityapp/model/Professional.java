@@ -13,6 +13,7 @@ import javax.persistence.Table;
  * Classe Professional.
  */
 @Entity
+@Table(name = "tbl_professional")
 public class Professional {
 
   @Id
@@ -27,7 +28,7 @@ public class Professional {
   private String speciality;
 
   Professional(Integer id, String nome, String speciality) {
-    this.id = id;
+//    this.id = id;
     this.nome = nome;
     this.speciality = speciality;
   }
