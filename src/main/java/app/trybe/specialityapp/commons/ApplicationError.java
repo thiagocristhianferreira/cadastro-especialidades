@@ -1,5 +1,8 @@
 package app.trybe.specialityapp.commons;
 
+/**
+ * ApplicationError.
+ */
 public class ApplicationError extends Throwable {
   private Integer status;
   private String message;
