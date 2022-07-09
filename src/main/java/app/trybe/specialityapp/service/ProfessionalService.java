@@ -7,6 +7,11 @@ import org.jvnet.hk2.annotations.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.validation.constraints.AssertTrue;
+import javax.ws.rs.core.Response;
+
+import static org.hibernate.validator.internal.util.Contracts.assertTrue;
+
 /**
  * ProfessionalService.
  */
@@ -19,4 +24,5 @@ public class ProfessionalService {
   public List<Professional> getAllProfessionals() {
     return repository.findAll();
   }
+
 }
