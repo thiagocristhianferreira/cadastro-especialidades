@@ -1,13 +1,15 @@
 package app.trybe.specialityapp.commons;
 
+import javax.ws.rs.core.Response.Status;
+
 /**
  * ApplicationError.
  */
 public class ApplicationError extends Throwable {
-  private Integer status;
+  private Status status;
   private String message;
 
-  public ApplicationError(Integer status, String message) {
+  public ApplicationError(String message, Status status) {
     this.status = status;
     this.message = message;
   }
@@ -15,11 +17,11 @@ public class ApplicationError extends Throwable {
   public ApplicationError() {
   }
 
-  public Integer getStatus() {
+  public Status getStatus() {
     return status;
   }
 
-  public void setStatus(Integer status) {
+  public void setStatus(Status status) {
     this.status = status;
   }
 
