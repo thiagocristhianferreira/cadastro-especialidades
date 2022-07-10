@@ -3,11 +3,8 @@ package app.trybe.specialityapp.controller;
 import app.trybe.specialityapp.commons.ApplicationError;
 import app.trybe.specialityapp.model.Professional;
 import app.trybe.specialityapp.service.ProfessionalService;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+
+import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -58,6 +55,50 @@ public class ProfessionalController {
       return Response
           .status(Response.Status.CREATED)
           .entity("Inserido")
+          .build();
+    } catch (ApplicationError e) {
+      return Response
+          .status(e.getStatus())
+          .entity(e.getMessage())
+          .build();
+    }
+  }
+
+  /**
+   * Edita registro.
+   */
+  @PUT
+  @Path("/edit/{id}")
+  @Consumes("application/json")
+  @Produces("application/json")
+  public Response edita(@PathParam("id") Integer id, Professional professional) {
+    try {
+      service.editaRegistro(id, professional);
+      return Response
+          .status(Response.Status.OK)
+          .entity("ID [" + id + "] atualizado")
+          .build();
+    } catch (ApplicationError e) {
+      return Response
+          .status(e.getStatus())
+          .entity(e.getMessage())
+          .build();
+    }
+  }
+
+  /**
+   * Deleta registro.
+   */
+  @DELETE
+  @Path("/delete/{id}")
+  @Consumes("application/json")
+  @Produces("application/json")
+  public Response deleta(@PathParam("id") Integer id, Professional professional) {
+    try {
+      service.deletaRegistro(id, professional);
+      return Response
+          .status(Response.Status.OK)
+          .entity("ID [" + id + "] removido")
           .build();
     } catch (ApplicationError e) {
       return Response

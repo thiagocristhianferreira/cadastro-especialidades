@@ -40,4 +40,28 @@ public class ProfessionalService {
     return repository.save(professional);
   }
 
+  /**
+   * Edita registro.
+   */
+  public Professional editaRegistro(Integer id, Professional professional) throws ApplicationError {
+    if (repository.findById(id).isEmpty()) {
+      throw new ApplicationError(
+          "Não é possível editar, o ID informado não existe",
+          Response.Status.NOT_FOUND);
+    }
+    return repository.save(professional);
+  }
+
+  /**
+   * Deleta registro.
+   */
+  public void deletaRegistro(Integer id, Professional professional) throws ApplicationError {
+    if (repository.findById(id).isEmpty()) {
+      throw new ApplicationError(
+          "Não é possível deletar, o ID informado não existe",
+          Response.Status.NOT_FOUND);
+    }
+    repository.delete(repository.findById(id).get());
+  }
+
 }
