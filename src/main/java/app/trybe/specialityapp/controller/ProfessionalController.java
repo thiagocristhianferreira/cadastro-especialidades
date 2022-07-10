@@ -3,7 +3,6 @@ package app.trybe.specialityapp.controller;
 import app.trybe.specialityapp.commons.ApplicationError;
 import app.trybe.specialityapp.model.Professional;
 import app.trybe.specialityapp.service.ProfessionalService;
-import javax.validation.Valid;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -41,7 +40,7 @@ public class ProfessionalController {
     } catch (ApplicationError e) {
       return Response
           .status(e.getStatus())
-          .entity(e.getMessage())
+          .entity(new ApplicationError(e.getMessage(), e.getStatus()))
           .build();
     }
   }
@@ -53,7 +52,7 @@ public class ProfessionalController {
   @Path("/add")
   @Consumes("application/json")
   @Produces("application/json")
-  public Response cadastra(@Valid @RequestBody Professional professional) {
+  public Response cadastra(@RequestBody Professional professional) {
     try {
       service.adicionaRegistro(professional);
       return Response
