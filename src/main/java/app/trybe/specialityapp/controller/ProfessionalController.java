@@ -65,7 +65,7 @@ public class ProfessionalController {
     } catch (ApplicationError e) {
       return Response
           .status(e.getStatus())
-          .entity(e.getMessage())
+          .entity(new ApplicationError(e.getMessage(), e.getStatus()))
           .build();
     }
   }
@@ -87,7 +87,7 @@ public class ProfessionalController {
     } catch (ApplicationError e) {
       return Response
           .status(e.getStatus())
-          .entity(e.getMessage())
+          .entity(new ApplicationError(e.getMessage(), e.getStatus()))
           .build();
     }
   }
@@ -109,7 +109,7 @@ public class ProfessionalController {
     } catch (ApplicationError e) {
       return Response
           .status(e.getStatus())
-          .entity(e.getMessage())
+          .entity(new ApplicationError(e.getMessage(), e.getStatus()))
           .build();
     }
   }
