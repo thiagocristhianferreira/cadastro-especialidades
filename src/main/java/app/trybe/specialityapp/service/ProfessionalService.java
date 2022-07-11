@@ -34,7 +34,7 @@ public class ProfessionalService {
   public Professional adicionaRegistro(Professional professional) throws ApplicationError {
     if (professional.getId() != null) {
       throw new ApplicationError(
-          "Não é permitido inserir novos registros com ID explícito.",
+          "Não é permitido inserir novos registros com ID explícito",
           Response.Status.BAD_REQUEST);
     }
     return repository.save(professional);
