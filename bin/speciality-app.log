@@ -1,0 +1,105 @@
+2022-07-09 13:32:38.123  INFO 20596 --- [main] a.t.s.SpecialityAppApplication           : Starting SpecialityAppApplication using Java 11.0.12 on CMO-TI-785755 with PID 20596 (C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades\target\classes started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 13:32:38.126  INFO 20596 --- [main] a.t.s.SpecialityAppApplication           : The following 1 profile is active: "dev"
+2022-07-09 13:32:38.940  INFO 20596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 13:32:39.019  INFO 20596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-07-09 13:32:39.492  INFO 20596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 13:32:39.851  INFO 20596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 13:32:39.925  INFO 20596 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 13:32:40.009  INFO 20596 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 13:32:40.263  INFO 20596 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 13:32:40.823  INFO 20596 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 13:32:41.502  INFO 20596 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 13:32:41.509  INFO 20596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:32:42.003  INFO 20596 --- [main] a.t.s.SpecialityAppApplication           : Started SpecialityAppApplication in 4.446 seconds (JVM running for 5.079)
+2022-07-09 13:32:42.009  INFO 20596 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:32:42.010  INFO 20596 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 13:32:42.229  INFO 20596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 13:32:42.234  INFO 20596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 13:41:07.918  INFO 4896 --- [main] a.t.s.SpecialityAppApplication           : Starting SpecialityAppApplication using Java 11.0.12 on CMO-TI-785755 with PID 4896 (C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades\target\classes started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 13:41:07.921  INFO 4896 --- [main] a.t.s.SpecialityAppApplication           : The following 1 profile is active: "dev"
+2022-07-09 13:41:08.741  INFO 4896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 13:41:08.815  INFO 4896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2022-07-09 13:41:09.279  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 13:41:09.580  INFO 4896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 13:41:09.647  INFO 4896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 13:41:09.717  INFO 4896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 13:41:09.951  INFO 4896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 13:41:10.558  INFO 4896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 13:41:11.246  INFO 4896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 13:41:11.253  INFO 4896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:41:11.782  INFO 4896 --- [main] a.t.s.SpecialityAppApplication           : Started SpecialityAppApplication in 4.438 seconds (JVM running for 5.042)
+2022-07-09 13:41:11.795  INFO 4896 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:41:11.801  INFO 4896 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 13:41:12.016  INFO 4896 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 13:41:12.031  INFO 4896 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 13:44:55.243  INFO 8948 --- [main] a.t.s.SpecialityAppApplication           : Starting SpecialityAppApplication using Java 11.0.12 on CMO-TI-785755 with PID 8948 (C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades\target\classes started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 13:44:55.246  INFO 8948 --- [main] a.t.s.SpecialityAppApplication           : The following 1 profile is active: "dev"
+2022-07-09 13:44:56.216  INFO 8948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 13:44:56.284  INFO 8948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2022-07-09 13:44:56.733  INFO 8948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 13:44:57.000  INFO 8948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 13:44:57.067  INFO 8948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 13:44:57.121  INFO 8948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 13:44:57.325  INFO 8948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 13:44:57.870  INFO 8948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 13:44:58.537  INFO 8948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 13:44:58.547  INFO 8948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:44:59.023  INFO 8948 --- [main] a.t.s.SpecialityAppApplication           : Started SpecialityAppApplication in 4.425 seconds (JVM running for 4.998)
+2022-07-09 13:44:59.030  INFO 8948 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 13:44:59.031  INFO 8948 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 13:44:59.249  INFO 8948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 13:44:59.254  INFO 8948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 14:06:55.264  INFO 8604 --- [main] a.t.s.SpecialityAppApplication           : Starting SpecialityAppApplication using Java 11.0.12 on CMO-TI-785755 with PID 8604 (C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades\target\classes started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 14:06:55.268  INFO 8604 --- [main] a.t.s.SpecialityAppApplication           : The following 1 profile is active: "dev"
+2022-07-09 14:06:56.513  INFO 8604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:06:56.595  INFO 8604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-07-09 14:06:57.143  INFO 8604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 14:06:57.516  INFO 8604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 14:06:57.596  INFO 8604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:06:57.669  INFO 8604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 14:06:57.906  INFO 8604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 14:06:58.533  INFO 8604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 14:06:59.312  INFO 8604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:06:59.322  INFO 8604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:06:59.863  INFO 8604 --- [main] a.t.s.SpecialityAppApplication           : Started SpecialityAppApplication in 5.42 seconds (JVM running for 6.201)
+2022-07-09 14:06:59.871  INFO 8604 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:06:59.872  INFO 8604 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 14:07:00.079  INFO 8604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 14:07:00.081  INFO 8604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 14:31:31.351  INFO 10460 --- [main] a.t.s.SpecialityAppApplication           : Starting SpecialityAppApplication using Java 11.0.12 on CMO-TI-785755 with PID 10460 (C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades\target\classes started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 14:31:31.355  INFO 10460 --- [main] a.t.s.SpecialityAppApplication           : The following 1 profile is active: "dev"
+2022-07-09 14:31:32.317  INFO 10460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:31:32.393  INFO 10460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-07-09 14:31:32.904  INFO 10460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-09 14:31:33.259  INFO 10460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-09 14:31:33.332  INFO 10460 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:31:33.395  INFO 10460 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-09 14:31:33.620  INFO 10460 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-09 14:31:34.249  INFO 10460 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 14:31:34.998  INFO 10460 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:31:35.004  INFO 10460 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:31:35.586  INFO 10460 --- [main] a.t.s.SpecialityAppApplication           : Started SpecialityAppApplication in 4.921 seconds (JVM running for 5.522)
+2022-07-09 14:31:35.594  INFO 10460 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:31:35.595  INFO 10460 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 14:31:35.802  INFO 10460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-09 14:31:35.804  INFO 10460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-09 14:32:12.089  INFO 17916 --- [main] a.t.s.c.ProfessionalControllerTest       : Starting ProfessionalControllerTest using Java 11.0.12 on CMO-TI-785755 with PID 17916 (started by thiago.cristhian in C:\Users\thiago.cristhian\TRYBE\JAVA\desafio-agregador\10-acc-java-04-exercises-cadastro-especialidades)
+2022-07-09 14:32:12.091  INFO 17916 --- [main] a.t.s.c.ProfessionalControllerTest       : The following 1 profile is active: "dev"
+2022-07-09 14:32:12.486  INFO 17916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-09 14:32:12.509  INFO 17916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-07-09 14:32:12.795  INFO 17916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-07-09 14:32:12.799  INFO 17916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-07-09 14:32:12.819  INFO 17916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-09 14:32:12.830  INFO 17916 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-07-09 14:32:12.882  INFO 17916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-09 14:32:12.884  INFO 17916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:32:13.407  WARN 17916 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-09 14:32:14.060  INFO 17916 --- [main] a.t.s.c.ProfessionalControllerTest       : Started ProfessionalControllerTest in 2.359 seconds (JVM running for 8.72)
+2022-07-09 14:32:14.143  INFO 17916 --- [main] estContainerFactory$GrizzlyTestContainer : Creating GrizzlyTestContainer configured at the base URI http://localhost:9998/
+2022-07-09 14:32:15.231  INFO 17916 --- [main] o.g.grizzly.http.server.NetworkListener  : Started listener bound to [localhost:9998]
+2022-07-09 14:32:15.233  INFO 17916 --- [main] o.g.grizzly.http.server.HttpServer       : [HttpServer] Started.
+2022-07-09 14:32:16.199  INFO 17916 --- [main] o.g.grizzly.http.server.NetworkListener  : Stopped listener bound to [localhost:9998]
+2022-07-09 14:32:16.211  INFO 17916 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-09 14:32:16.212  INFO 17916 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-07-09 14:32:16.416  INFO 17916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-07-09 14:32:16.420  INFO 17916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
