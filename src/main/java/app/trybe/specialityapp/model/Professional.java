@@ -28,6 +28,7 @@ public class Professional {
   Professional(Integer id, String nome, String speciality) {
     this.nome = nome;
     this.speciality = speciality;
+    this.id = id;
   }
 
   Professional() {
